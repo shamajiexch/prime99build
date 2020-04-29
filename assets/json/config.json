@@ -1,0 +1,13 @@
+{
+  "getInitDataUrl": "https://freechipapi.rowbet.com/",
+  "isShowMaxLiability": true,
+  "isShowDashboardRate": true,
+  "isShowSignalrLogs": false,
+  "host": "wss://veronicafeed.jamgroundfeed.com:8443",
+  "StreamNamePreFix": "channel_2_",
+  "googleCaptchExpireMsg": "Request Timeout. Please reload the page.",
+  "openGameIframe": true,
+  "isShowHorseRace": true,
+  "horseRaceImagePath": "assets/images/casinoimg/horse.png",
+  "isNewHorceRace": false
+}

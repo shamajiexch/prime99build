@@ -1,0 +1,346 @@
+﻿.SetDivider {
+    padding: 5px;
+}
+
+.borderless td,
+.borderless th {
+    border: none !important;
+}
+
+.in-play-listing {
+    /*padding-bottom: 20px;*/
+   /*  overflow: hidden; */
+}
+
+.paddingRemove {
+    margin-bottom: 3px;
+}
+
+.in-play-list {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.pageheader {
+    width: 48%;
+    float: left;
+    top: 45%;
+    position: relative;
+}
+
+
+.box-body {
+    padding: 10px;
+}
+
+.chipForm {
+    border: 1px solid #1d1b2e;
+}
+
+.box-title {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.table-SportList .lay-rate-color {
+    background-color: #fca4b7;
+    color: #000;
+    cursor: pointer;
+}
+
+.table-SportList .back-rate-color {
+    background-color: #7cc4f7;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.table-SportList a {
+    color: #000;
+    font-weight: bold !important;
+}
+
+.table-SportList a small {
+    padding-left: 5px;
+}
+
+.table-SportList a:hover {
+    color: #000;
+    font-weight: bold !important;
+}
+
+.noMarginBottom {
+    margin-bottom: 0px !important;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.linheight-30px {
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.html5buttons {
+    float: right;
+}
+
+.SetmarketIcon {
+    padding-right: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropbtn {
+    background-color: #132241;
+    color: white;
+    padding: 2px 12px 3px 0px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #dedede;
+    text-decoration: none;
+    color: #132241;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #f9f9f9;
+}
+
+.setDropMenuIcon {
+    padding: 5px 8px;
+}
+
+.divider {
+    /*height: 1px;
+        margin: 9px 1px;*/
+    overflow: hidden;
+    /*background-color: #000;*/
+    border-bottom: 1px solid #dedede;
+}
+
+.dataTables_length {
+    float: left;
+}
+
+.dataTables_filter label {
+    margin-right: 5px;
+}
+
+.box-header {
+    padding: 1em;
+    background: #1d1b2e;
+    border: 1px solid #1d1b2e;
+}
+
+/*.btn:hover{
+    color:#fff;
+    background-color:#000;
+}*/
+.LogoWrap {
+    text-align: center;
+    line-height: 94px;
+}
+
+.Setlogo {
+    color: #fff;
+    padding-top: 20px;
+}
+
+.setBorderLogin {
+    border-top: 1px solid #e5e5e5;
+}
+
+.SetmarginLeft5 {
+    margin-left: 5px !important;
+}
+
+.smalltext {
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.headerPadding {
+    padding-top: 1em;
+}
+
+.table-placebet thead th {
+    color: #fff;
+    font-weight: normal;
+}
+
+.input-addon {
+    /*position:relative !important;*/
+}
+
+.input-addon .currency {
+    float: left;
+    line-height: 28px;
+    background: #0060ce;
+    border-radius: 5px 0 0 5px;
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+.input-addon input {
+    font-size: 13px;
+    color: #686765;
+    width: 58px;
+    border: 0;
+    line-height: 26px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
+    border-radius: 0 5px 5px 0;
+}
+
+input-addon .inputControl.betPriceIC {
+    line-height: 15px;
+    border-radius: 0 5px 5px 0;
+    padding: 0;
+}
+
+.input-addon .inputControl {
+    float: left;
+    background: #0060ce;
+    font-size: 13px;
+}
+
+.input-addon .inputControl em {
+    cursor: pointer;
+    line-height: 14px !important;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.input-addon .inputControl em:first-child img {
+    transform: rotate(180deg);
+    top: 1px;
+}
+
+.input-addon .inputControl.betPriceIC img {
+    position: relative;
+    width: 10px;
+}
+
+.input-addon .inputControl.betPriceIC {
+    line-height: 14px;
+    border-radius: 0 5px 5px 0;
+    padding: 0;
+    /*position:relative;*/
+}
+
+.betForm .input-addon .inputControl {
+    line-height: 30px;
+    background: #0060ce;
+    border-radius: 5px 0 0 5px;
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+.SetmarginTop10px {
+    margin-top: 10px !important;
+}
+
+.PaddingRate {
+    /*padding:6px 2px;*/
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.logo:hover {
+    color: #009c6d;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 13px;
+    top: 4px;
+    margin-bottom: 0px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 7px;
+    width: 7px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(12px);
+    -ms-transform: translateX(12px);
+    transform: translateX(12px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

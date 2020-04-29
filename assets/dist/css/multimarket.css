@@ -1,0 +1,1671 @@
+.clearfix {
+    clear: both;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.top-margin-3px {
+    margin-top: 3px;
+}
+
+.bottom-margin-3px {
+    margin-bottom: 3px;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.top-margin-6px {
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    margin: 0 0 15px;
+    border: 1px solid #0a0815;
+}
+
+.top-margin-6px:last-child {
+    margin: 0 0 40px;
+}
+
+.submitPanel .btn {
+    /*margin-bottom: 5px;
+	font-size: 9px;
+	font-weight: 300;*/
+}
+
+.markettitle {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.marketborder {
+    margin: 0 0 15px;
+    border: 1px solid #0a0815;
+    z-index: 999;
+    background-color: #141128;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    /* overflow: auto; */
+    overflow: hidden;
+}
+
+.stackcounter {
+    padding: 3px 15px;
+    background-color: #0c0b1a;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.stackcounterMain {
+    font-size: 12px;
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+.stackcounterMain span {
+    margin-right: 7px;
+}
+
+.matchdate {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    padding-left: 0px;
+    margin: 2px 0 5px;
+    display: inline-block;
+}
+
+.commentry {
+    margin: 6px 0;
+    font-weight: 300;
+    max-width: 300px;
+    float: left;
+}
+
+.commentry i {
+    color: #cc0000;
+    padding-right: 5px;
+}
+
+.remainingtime {
+    /* font-size: 11px;
+    font-weight: 600;
+    margin: 0;
+    display: inline-block; */
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.marketvideo {
+    color: #0c0b1a;
+    padding: 3px 5px;
+    line-height: 100%;
+    font-size: 10px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #bdaec6;
+    border-radius: 3px;
+    margin: 5px 1px;
+}
+
+.setBorderBottom {
+    /*border-bottom: 1px solid #bfbde4;*/
+    /*border-bottom: 1px solid #dedede;*/
+    background-color: #1d1b2e;
+    overflow: hidden;
+}
+
+.setBorderBottomDown {
+    background-color: #0c0b1a;
+}
+
+.setBorderTop {
+    border-top: 1px solid #0a0815;
+    background-color: #0c0b1a;
+    overflow: hidden;
+}
+
+/* The Modal (background) */
+.marketmodal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    /*padding-top: 100px;*/
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    /*height: 300px; */
+    z-index: 99999999999;
+}
+
+.marketmodal H2 {
+    border: none;
+    color: #fff;
+    margin: 0px;
+    padding: 0px 12px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Modal Content */
+.marketmodal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 0px solid #888;
+    /*width: 80%;*/
+    box-shadow: 0 0 5px #000;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+.matchclose {
+    color: white;
+    float: right;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+.matchclose:hover,
+.matchclose:focus {
+    color: #4C5351;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.marketmodal-header {
+    padding: 2px 2px;
+    background-color: #9c8aa5;
+    color: white;
+}
+
+.marketmodal-body {
+    /*padding: 2px 16px;*/
+    min-height: 50px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #989898;
+    color: white;
+}
+
+.bettitle {
+    color: #fff;
+    padding-left: 15px !important;
+    font-weight: 300;
+}
+
+.marketdivcontent {
+    line-height: 20px;
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    font-weight: bold !important;
+}
+
+.linheight-30px {
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.marketname {
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.smalltext {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.refreshtime {
+    vertical-align: middle;
+    text-align: right;
+    font-weight: 300;
+}
+
+.auctionTime {
+    float: right;
+    padding-right: 5px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.auctionTime i {
+    font-size: 16px;
+    vertical-align: middle;
+    color: white;
+    padding-right: 5px;
+}
+
+.allowedauction {
+    color: #268600;
+    font-size: 16px;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.csslayer {
+    background: none repeat scroll 0 0 #ffffff;
+    border: 2px solid #b30000;
+    color: #b30000;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 400;
+    display: none;
+}
+
+.BookTeenPatti {
+    font-size: 20px;
+}
+
+.cssinfolayer {
+    background: url(../../images/Loader.svg) no-repeat center #ffffff !important;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 2px solid #D11D23;
+    color: #D11D23;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.7;
+    /*position: fixed;*/
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 400;
+    display: none;
+}
+
+.bookmarkercsslayer .rate {
+    background: none repeat scroll 0 0 #ffffff !important;
+    color: #b30000 !important;
+    font-weight: normal;
+    opacity: 0.2 !important;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 400 !important;
+}
+
+.sessionbetbox {
+    min-width: 50px;
+    margin: 1px 1px 0px 0px;
+    background: transparent;
+    border: 1px solid #c4d4e1;
+}
+
+.sessionbetbox .price {
+    color: #000 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0Px 0px 0px 0px !important;
+    font-weight: 600;
+}
+
+.sessionpoint {
+    display: inline-block;
+    font-size: 10px !important;
+    font-weight: 600;
+    line-height: 15px;
+    padding: 0Px 0px 0px 0px !important;
+    color: #040608 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.unMatchBackRow {
+    background-color: #bbd7ec;
+}
+
+.unMatchLayRow {
+    background-color: #f6d6dc;
+}
+
+.siteRate {
+    /* color: #000 !important;
+    border: 1px solid #0973bd;
+    background-color: #9ad5ff;
+    padding: 8px 3px;
+    display: inline-block;
+    margin: 0 2px 2px 1px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0;
+    min-width: 60px; */
+
+    color: #fff !important;
+    border: 2px solid #1599f6;
+    background-color: #36acff;
+    padding: 5px 6px;
+    display: inline-block;
+    margin: 2px 2px 2px 2px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 2px;
+    min-width: 60px;
+}
+
+.siteRate:hover {
+    text-decoration: none;
+    background-color: #9ad5ff;
+    -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+
+.siteRateLay {
+    /* color: #000 !important;
+    border: 1px solid #fe597b !important;
+    background-color: #f3b2bf !important;
+    padding: 8px 3px;
+    display: inline-block;
+    margin: 0 2px 2px 1px;
+    font-size: 14px;
+    border-radius: 0;
+    font-weight: 600;
+    min-width: 60px; */
+    color: #fff !important;
+    border: 2px solid #fb436b !important;
+    background-color: #fe809c !important;
+    padding: 5px 6px;
+    display: inline-block;
+    margin: 2px 2px 2px 2px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 2px;
+    min-width: 60px;
+}
+
+.siteRateLay:hover {
+    text-decoration: none;
+    background-color: #f84c6e !important;
+    -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+
+#MarketLayBetPanel .clsLayTr th {
+    background-color: #c9c8c7 !important;
+}
+
+.stackclear {
+    /* color: #fff !important;
+    border: 1px solid #aa0606;
+    padding: 8px;
+    display: inline-block;
+    margin: 2px 4px;
+    background-color: #ca2323;
+    font-size: 14px;
+    font-weight: 300; */
+    /*border-radius: 4px;*/
+    color: #fff !important;
+    border: 2px solid #8f0000;
+    background-color: #ca2323;
+    padding: 5px 6px;
+    display: inline-block;
+    margin: 2px 2px 2px 2px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 2px;
+    line-height: 19px;
+    vertical-align: middle;
+    min-width: 60px;
+}
+
+.stackclear:hover {
+    text-decoration: none;
+    background-color: #7e0303;
+    -webkit-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+}
+
+.closemarket {
+    cursor: pointer;
+    margin: 0px 8px;
+    font-size: 20px;
+    position: relative;
+    right: 0;
+    padding: 0;
+    line-height: 30px;
+}
+
+.position-icon {
+    color: #0785fb;
+}
+
+.marketdelete {
+    color: red;
+    cursor: pointer;
+}
+
+.marketldelete img {
+    width: 12px;
+    margin: 2px 0px 0px 12px;
+}
+
+.allowbet {
+    /*background-image: url(../../Images/allow.png);
+    background-size: 15px 12px;
+    background-repeat: no-repeat;
+    background-position: right 0px bottom 2px;
+    padding: 0px 14px 0px 0px;
+    color: #000;
+    font-weight: 500;*/
+    position: relative;
+    width: 8px;
+    height: 8px;
+    /*top: 8px;
+    bottom: 0;*/
+    background: #2bc121;
+    border-radius: 50%;
+    left: 0px;
+    display: inline-block;
+}
+
+.disallowbet {
+    /*background-image: url(../../Images/notallow.png);
+    background-size: 15px 12px;
+    background-repeat: no-repeat;
+    background-position: right 0px bottom 2px;
+    padding: 0px 14px 0px 0px;
+    color: #000;
+    font-weight: 500;*/
+    position: relative;
+    width: 8px;
+    height: 8px;
+    /*top: 8px;
+    bottom: 0;*/
+    background: #c51850;
+    border-radius: 50%;
+    left: 0px;
+    display: inline-block;
+}
+
+.elemtnblock {
+    display: block;
+}
+
+.table-market>thead>tr>th {
+    /*border-bottom: 2px solid #1d1b2e;*/
+    border-bottom: 0;
+}
+
+.table-market>tbody>tr>td.no-border-right-table,
+.table-market>tbody>tr>th.no-border-right-table,
+.table-market>tfoot>tr>td.no-border-right-table,
+.table-market>tfoot>tr>th.no-border-right-table,
+.table-market>thead>tr>td.no-border-right-table,
+.table-market>thead>tr>th.no-border-right-table {
+    border-right: 0px !important;
+}
+
+.table-market>tbody>tr>th,
+.table-market>tfoot>tr>td,
+.table-market>tfoot>tr>th,
+.table-market>thead>tr>td,
+.table-market>thead>tr>th {}
+
+.table-market>tbody>tr>td {
+    padding: 2px 12px;
+    border-top-color: #ebebeb;
+    height: 50px;
+    min-height: 55px;
+    min-width: 62px;
+    vertical-align: middle;
+}
+
+.table-market .no-tr-border-left {
+    border-left: 0px !important;
+}
+
+.table-market .no-tr-border-right {
+    border-right: 0px !important;
+}
+
+.table-market .back-rate-header {
+    border-bottom: 2px solid #0973bd !important;
+    color: black !important;
+    font-size: 14px;
+    font-weight: 700 !important;
+    line-height: 20px;
+    background-color: #7cc4f7 !important;
+}
+
+.table-market .lay-rate-header {
+    border-bottom: 2px solid #fe597b !important;
+    color: black !important;
+    font-size: 15px;
+    font-weight: 700 !important;
+    line-height: 20px;
+    background-color: #fca4b7;
+}
+
+.table-market .header-size {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+
+.table-market .back-rate-color {
+    background-color: #aedbfb !important;
+    color: #fff !important;
+    cursor: pointer;
+    /*height: 38px;*/
+}
+
+/*.table-market .back-rate-color:hover {
+        background: none !important;
+        background-color: #7cc4f7 !important;
+    }*/
+
+.table-market .back2-rate-color {
+    background-color: #ceeaff !important;
+    cursor: pointer;
+}
+
+/*.table-market .back2-rate-color:hover {
+        background-color: #7cc4f7 !important;
+    }*/
+
+.table-market .back3-rate-color {
+    background-color: #e7f5ff;
+    cursor: pointer;
+}
+
+/*.table-market .back3-rate-color:hover {
+        background-color: #7cc4f7 !important;
+    }*/
+
+.table-market .lay-rate-color {
+    background-color: #ffcad5 !important;
+    cursor: pointer;
+}
+
+/*.table-market .lay-rate-color:hover {
+        background-position: 0% 0%;
+        background-color: #fca4b7 !important;
+        background-image: none !important;
+        background-repeat: repeat !important;
+        background-attachment: scroll !important;
+    }*/
+
+.table-market .lay2-rate-color {
+    background-color: #f5d8de !important;
+    cursor: pointer;
+}
+
+/*.table-market .lay2-rate-color:hover {
+        background-color: #fca4b7 !important;
+    }*/
+
+.table-market .lay3-rate-color {
+    background-color: #ffe6eb !important;
+    cursor: pointer;
+}
+
+/*.table-market .lay3-rate-color:hover {
+        background-color: #fca4b7 !important;
+    }*/
+
+.table-market .rate a {
+    color: #040608;
+    text-decoration: none;
+    width: 100%;
+}
+
+.table-market .rate .price {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+}
+
+.table-market .rate .sessionprice {
+    /*font-size: 24px;
+    min-height: 40px;
+    line-height: 40px;*/
+    color: #000;
+}
+
+.table-market .rate .sessionpoint span {
+    /*font-size: 12px !important;*/
+}
+
+.table-market .rate span {
+    color: #000 !important;
+    font-size: 12px;
+    padding: 0px;
+    letter-spacing: 0;
+}
+
+.no-border-radius {
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+}
+
+.lblwinprice {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.table-placebet {
+    /*font-size:12px;*/
+}
+
+.table-placebet>tbody>tr>th,
+.table-placebet>tfoot>tr>td,
+.table-placebet>tfoot>tr>th,
+.table-placebet>thead>tr>td,
+.table-placebet>thead>tr>th {
+    font-size: 13px;
+    color: #000;
+    /*font-weight: normal;*/
+}
+
+.table-placebet>tbody>tr>td {
+    padding: 5px !important;
+    border: none;
+    border-bottom: 1px solid #0a0815;
+}
+
+.table-placebet>tbody>tr>td span {
+    padding: 0px !important;
+    padding-left: 5px !important;
+}
+
+.selectionname {
+    /*color: #fff;*/
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.selectionmarket {
+    /*color: #fff;*/
+    font-size: 9px;
+    font-weight: 300;
+}
+
+.table-placebet input[type="text"] {
+    height: 25px;
+    font-size: 11px;
+    padding-right: 2px !important;
+    font-weight: 300 !important;
+    padding-left: 1px !important;
+    color: #fff;
+    background-color: #141128;
+    border: 1px solid #3d3a53;
+    text-align: center;
+}
+
+.img-increment {
+    background: url("../../images/up_arrow.png") no-repeat scroll center center;
+    cursor: pointer;
+    height: 12px;
+    padding: 0 8px 0 !important;
+    width: 12px;
+    min-width: 12px;
+    margin-left: 2px;
+}
+
+.img-decreement {
+    background: url("../../images/down_arrow.png") no-repeat scroll center center;
+    cursor: pointer;
+    height: 12px;
+    padding: 0 8px 0 !important;
+    width: 12px;
+    min-width: 12px;
+    margin-left: 2px;
+}
+
+.table-placebet .sessionmarket {
+    line-height: 28px !important;
+    font-size: 13px !important;
+    padding-right: 5px !important;
+    vertical-align: middle !important;
+    color: #000 !important;
+}
+
+.table-placebet .placemarketpl {
+    text-align: right !important;
+    line-height: 25px !important;
+    font-size: 15px !important;
+    padding-right: 5px !important;
+    vertical-align: middle !important;
+    font-weight: 500 !important;
+}
+
+.table-placebet .checkbox {
+    display: inline-block;
+    font-weight: normal;
+    color: #000;
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+
+
+.table-betview {
+    /*font-size:12px;*/
+}
+
+.table-betview>tbody>tr>th,
+.table-betview>tfoot>tr>td,
+.table-betview>tfoot>tr>th,
+.table-betview>thead>tr>td,
+.table-betview>thead>tr>th {
+    font-size: 12px;
+    color: #9c8aa5;
+    font-weight: 300;
+    border-bottom: 1px solid #0a0815;
+}
+
+
+.table-betview>tbody>tr>td span {
+    padding: 0px;
+    padding-left: 10px;
+}
+
+.table-betview>tbody>tr>td.subinfo span {
+    padding: 0px !important;
+}
+
+.table-betview .clsBackTr {
+    background-color: #e4e7ed;
+    line-height: 20px;
+}
+
+.table-betview .clsBackTr th {
+    padding: 8px 10px;
+}
+
+.table-betview .clsBackTr .marketheader {
+    padding: 5px 0px !important;
+    line-height: 20px;
+}
+
+.table-betview .clsBackTr td {
+    background-color: #292c31;
+    color: #fff !important;
+    font-size: 12px;
+    border-bottom: 1px solid #0a0815;
+    border-top: 1px solid #0a0815;
+    position: relative;
+}
+
+#MarketBackBetPanel .clsBackTr th {
+    background-color: #e4e7ed !important;
+    color: black;
+    font-weight: 300;
+    border: 1px solid #0a0815;
+    font-size: 12px;
+}
+
+.table-betview .back-rate-gridcolor {
+    background: #aedbfb !important;
+    border-bottom: solid 1px #0a0815;
+    line-height: 16px;
+    color: #252d40;
+    height: 35px;
+}
+
+.table-betview .back-rate-gridcolor td {
+    border-color: #0a0815;
+}
+
+.table-betview .lay-rate-gridcolor {
+    background: #ffcad5 !important;
+    border-bottom: solid 1px #0a0815;
+    color: #000;
+    height: 35px;
+}
+
+.table-betview .lay-rate-gridcolor td {
+    border-color: #0a0815;
+}
+
+.table-betview .color-black td span {
+    color: #000 !important;
+}
+
+.table-betview .subinfo {
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.othermarket .modal-header {
+    padding: 8px;
+}
+
+.othermarket .modal-header .close {
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.marketlist {
+    line-height: 16px;
+    cursor: pointer;
+    color: #fff;
+    /*padding: 5px !important;*/
+    /*background-color: #00703d;
+    border-bottom:3px solid #119659;*/
+    background-color: #fff;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+    font-weight: 500;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.marketlist:hover {
+    background-color: #999;
+    border-bottom: 1px solid #ddd;
+}
+
+.marketlist i {
+    font-size: 25px;
+    padding-top: 3px;
+}
+
+.noMarginBottom {
+    margin-bottom: 0px;
+}
+
+.addmarket {
+    /*cursor: pointer;
+    font-size: 24px;*/
+    text-align: right;
+    padding-right: 10px !important;
+    float: right;
+}
+
+.watchLive {
+    text-align: right;
+    padding-right: 0;
+    float: right;
+    cursor: pointer;
+}
+
+.addmarket a {
+    font-size: 12px;
+    color: #fff;
+    background-color: #cc0000;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 5px 0;
+    width: 22px;
+    height: 22px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.watchLive a {
+    font-size: 12px;
+    /* text-transform: uppercase; */
+    color: #fff;
+    padding: 6px 0;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.watchLive a:hover {
+    color: #fff;
+}
+
+.watchLive a i {
+    color: #fff;
+    font-size: 16px;
+    padding-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.sessioninfo {
+    line-height: 30px;
+    border-bottom: 1px solid #b2b2b2;
+    color: #000;
+}
+
+.sessionmarketreport {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    min-width: 12px;
+}
+
+.smallscore {
+    color: #fff !important;
+    font-weight: normal !important;
+    font-size: 10px !important;
+    line-height: 10px !important;
+}
+
+
+.setBgcolorScore {
+    /*background-color: #fcfcfc;*/
+}
+
+.setTennishScorePadding {
+    padding: 0px 4px;
+}
+
+.setlivescoreMatchStatus {
+    color: #D11D23 !important;
+}
+
+.setTennishScorePaddingHeader {
+    padding: 0px 4px;
+}
+
+.setCurrentColor {
+    color: #2BCC20;
+    background-color: #555;
+}
+
+.setBetSlipHeader {
+    padding: 0px 10px;
+    font-size: 1.1em;
+    /* text-transform: uppercase; */
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #1d1b2e;
+    font-weight: 600;
+    color: #fff;
+    line-height: 40px;
+    margin-top: 0;
+}
+
+.setUnmatchHeader {
+    padding: 0px 10px;
+    font-size: 1.1em;
+    /* text-transform: uppercase; */
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #292c31;
+    font-weight: 600;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.setPlacedHeader {
+    padding: 0px 10px;
+    font-size: 1.1em;
+    /* text-transform: uppercase; */
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #292c31;
+    font-weight: 600;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 0;
+}
+
+.BorderNone {
+    border: 0px;
+}
+
+.nopadding-right {
+    padding-right: 0px;
+}
+
+a.tooltips {
+    position: relative;
+    display: inline;
+}
+
+a.tooltips span {
+    font-size: 12px;
+    position: absolute;
+    width: 140px;
+    color: #fff;
+    background: #000;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+}
+
+a.tooltips span:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #000000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+a:hover.tooltips span {
+    visibility: visible;
+    opacity: 0.8;
+    top: 35px;
+    left: 50%;
+    margin-left: -76px;
+    z-index: 999;
+}
+
+
+.overflowmsg {
+    color: #940303;
+    font-weight: 600;
+    animation: blinker 1s linear infinite;
+    font-size: 11px;
+    padding-left: 10px;
+    line-height: 12px;
+    margin: 5px 0 0;
+}
+
+
+.markethover {
+    color: #222;
+}
+
+.SetmarketIcon {
+    /* padding: 0px 10px 0px 5px; */
+}
+
+.markethover:hover {
+    /*color: #555299;*/
+    color: #e60015;
+}
+
+.nopadding {
+    padding: 0px !important;
+}
+
+.noMarginBottom {
+    margin-bottom: 0px;
+}
+
+.setPersonImgHeight {
+    height: 50px;
+}
+
+.pageheader {
+    width: 100%;
+    float: left;
+}
+
+.NoMargin {
+    margin: 0px !important;
+}
+
+.ErrorLabelStyle {
+    color: red;
+    display: inline-block;
+}
+
+.displayInline {
+    display: inline-block;
+}
+
+.setChangePwdWidth {
+    width: 98%;
+}
+
+.smalltext {
+    font-size: 11px;
+    color: #fff;
+}
+
+.html5buttons {
+    float: right;
+}
+
+.dataTables_length {
+    float: left;
+}
+
+.dataTables_filter label {
+    margin-right: 5px;
+}
+
+.ManageDropDown ul li a {
+    padding: 8px 20px !important;
+}
+
+.bottom-margin-3px {
+    margin-bottom: 3px !important;
+}
+
+.top-margin-3px {
+    margin-top: 3px !important;
+}
+
+.setmarginBottom10 {
+    margin-bottom: 10px !important;
+}
+
+.setLogo {
+    width: 62%;
+    max-width: 100%;
+}
+
+.setmaxWidth {
+    max-width: 100%;
+}
+
+/*#spsubLiability {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+#spsubTotalBalance {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+#spBalance {
+    font-size: 19px !important;
+    font-weight: bold !important;
+}*/
+
+.setFontSize16 {
+    font-size: 16px !important;
+}
+
+.setfontsize {
+    /*font-size: 14px;
+    font-weight: normal;*/
+}
+
+.setwidthDefaultRate {
+    width: 15%;
+}
+
+/*.PaddingRate {
+    padding: 8px;
+    height: 35px;
+}*/
+
+.SetVerticleAlign {
+    vertical-align: middle !important;
+}
+
+/*
+.table-SportList .lay-rate-color {
+    background-color: #FFCAD5;
+    color: #000;
+    cursor: pointer;
+}
+*/
+
+/*.table-SportList .lay-rate-color:hover {
+        background-position: 0% 0%;
+        background-color: #fca4b7 !important;
+        background-image: none !important;
+        background-repeat: repeat !important;
+        background-attachment: scroll !important;
+        color: #000;
+    }*/
+
+/*.table-SportList .back-rate-color {
+    background-color: #AEDBFB;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+    .table-SportList .back-rate-color:hover {
+        background: none !important;
+        color: #000;
+        background-color: #7cc4f7 !important;
+    }*/
+
+/*.table-SportList a {
+    color: #fff;
+}
+.table-SportList a:hover {
+    text-decoration:none !important;
+    color:#ffb03e;
+}*/
+
+.setPointer {
+    cursor: pointer;
+}
+
+/*.table-SportList tr td {
+    border-top: 1px solid #e4e7ea !important;
+    border-left: 0px solid #e4e7ea !important;
+    border-right: 0px solid #e4e7ea !important;
+    border-bottom: 1px solid #e4e7ea !important;
+}*/
+
+.tbldataTables tr td {
+    border-top: 1px solid #e4e7ea !important;
+    border-left: 0px solid #e4e7ea !important;
+    border-right: 0px solid #e4e7ea !important;
+    border-bottom: 1px solid #e4e7ea !important;
+}
+
+.tblprofitlossdataTables tr td,
+.tblprofitlossinfodataTables tr td {
+    border-top: 1px solid #e4e7ea !important;
+    border-left: 0px solid #e4e7ea !important;
+    border-right: 0px solid #e4e7ea !important;
+    border-bottom: 1px solid #e4e7ea !important;
+}
+
+.setCloseHeight {
+    height: 20px;
+}
+
+.divSportHeighlight {
+    background-color: #364363;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    /* text-transform: uppercase; */
+}
+
+.divSportHeighlight span i {
+    padding-right: 7px;
+    font-size: 18px;
+}
+
+.pageheader h5 {
+    font-size: 16px !important;
+    letter-spacing: 0;
+    padding: 4px 0;
+}
+
+.pageheader .arrow {
+    border-left: 8px solid #cb5a5e;
+    left: 319px;
+    border-right: 0;
+    position: absolute;
+    top: 74px;
+    right: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bg-red {
+    border-color: #cb5a5e !important;
+    background-image: none !important;
+    background-color: #cb5a5e !important;
+    color: #fff !important;
+    border-radius: 0px;
+}
+
+.divNews {
+    width: 5%;
+}
+
+.NewsData {
+    width: 92%;
+    float: right;
+}
+
+.table-SportList tbody tr td {
+    border: 0px;
+    /*padding:5px 10px !important;*/
+}
+
+.table-SportList .white-box .box-title {
+    margin: 0px;
+}
+
+.market-home {
+    border: 1px solid #636363;
+    margin: 30px 0;
+    background-color: #1d2331;
+    padding: 0 0 10px;
+    -webkit-box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+/*	.box-title {
+		color: #fff;
+		font-weight: 600;
+		font-size: 15px;
+		margin-top: 15px;
+		margin-bottom: 2px;
+		padding: 0 15px;
+	}*/
+
+.setcolor {
+    color: #ffb03e;
+}
+
+.table-SportList {
+    margin-bottom: 0;
+}
+
+.table-SportList thead>tr>th {
+    border-bottom: 0;
+}
+
+
+@media (max-width:991px) {
+    .marketvideo {
+        /*float: right;*/
+    }
+}
+
+.bootbox-body {
+    padding: 15px;
+    font-size: 15px;
+    color: #000;
+}
+
+.width40 {
+    width: 40% !important;
+}
+
+.table-market input[type="text"] {
+    height: 25px;
+    min-height: 25px;
+    font-size: 12px;
+    padding-right: 2px !important;
+    font-weight: 500 !important;
+    padding-left: 4px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    color: #000;
+    border: 1px solid #ccc;
+    width: 50%;
+    display: inline-block !important;
+    vertical-align: bottom;
+    border-radius: 0px;
+}
+
+.table-market input[type="number"] {
+    height: 28px;
+    min-height: 28px;
+    font-size: 14px;
+    padding-right: 2px !important;
+    font-weight: 500 !important;
+    padding-left: 4px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    color: #000;
+    border: 1px solid #ccc;
+    width: 50%;
+    display: inline-block !important;
+    vertical-align: bottom;
+    border-radius: 0px;
+}
+
+.betRate {
+    padding-right: 0px !important;
+}
+
+.tblmatchBet tbody tr td span {
+    /*padding-right:0px !important;
+    padding-left:0px !important*/
+}
+
+.color-red {
+    color: red;
+}
+
+.font-Bold {
+    font-weight: bold;
+}
+
+.padLeft5 {
+    padding-left: 5px !important;
+}
+
+.width98 {
+    width: 98% !important;
+}
+
+/* .setbtnHeight {
+    height: 25px;
+    min-height: 25px;
+    line-height: 22px;
+    width: 24px;
+    min-width: 24px;
+} */
+
+.btnplacestyle {
+    padding: 2px 25px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.padleft0 {
+    padding-left: 0px !important;
+}
+
+.lineHeight25 {
+    line-height: 25px !important;
+}
+
+.padding5 {
+    padding: 5px !important;
+}
+
+.width38 {
+    width: 38% !important;
+}
+
+.padleft8 {
+    padding-left: 8px !important;
+}
+
+/*score*/
+.scoreBorderTop {
+    border-top: 1px solid #261d1d;
+}
+
+.soccerRunner {
+    font-size: 13px;
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.soccerScore {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #09b310;
+}
+
+.soccerSmallScore {
+    padding-left: 8px;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+
+.font-12 {
+    font-size: 10px !important;
+}
+
+.cricketInplay {
+    color: #3ea211;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.letterspacing1 {
+    letter-spacing: 0;
+}
+
+.cricketHeader {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #fff;
+}
+
+.CricketHighlight {
+    /*background:#888;*/
+    color: #3fa810;
+}
+.CricketHighlightB {
+    color: black !important;
+}
+
+.CricketHighlight .smallscore {
+    color: #3fa810 !important;
+}
+.CricketHighlightB .smallscore {
+    color: black !important;
+}
+
+.linheight-12px {
+    line-height: 12px !important;
+}
+
+.serving {
+    margin-bottom: 0px;
+    display: inline-block;
+    border-radius: 6px;
+    width: 6px;
+    height: 6px;
+    background-color: #0c0;
+    margin-left: 5px;
+}
+
+.font-600 {
+    font-weight: 600 !important;
+}
+
+.MatchStatus {
+    letter-spacing: 0;
+    font-size: 10px;
+}
+
+.nopaddingleft8 {
+    padding-left: 6px;
+}
+
+.tennisSmall .smallscore1 {
+    color: #fff !important;
+    font-weight: normal !important;
+    font-size: 8px !important;
+    line-height: 10px !important;
+}
+
+.f12 {
+    font-size: 12px !important;
+}
+
+.betslipLimit {
+    color: #000;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/*GoldScore*/
+
+.setScoreFontsize {
+    font-size: 13px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.setTennishScorePadding {
+    padding: 0px 15px;
+}
+
+.setlivescoreMatchStatus {
+    color: #D11D23 !important;
+}
+
+.text-green {
+    color: #3fa810;
+}
+
+.bgRed {
+    background: #f71313 !important;
+}
+
+.bgGreen {
+    background: #28a015 !important;
+}
+
+.bgBlue {
+    background: #261488 !important;
+}
+
+.bgGrey {
+    background: #bbbbbb !important;
+}
+
+.bgBrown {
+    background: #883200 !important;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    font-size: 10px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin: 2px;
+    background: #28a015;
+}
+
+.goldscorebg {
+    color: #fff;
+    background-color: #1f2134;
+}
+
+.borderleft {
+    border-left: 1px solid #cecece;
+}
+
+.borderbottom {
+    border-bottom: 1px solid #c7c7c7;
+}
+
+b {
+    font-weight: 500;
+    color: #fff;
+}
+
+.setBgcolorScore {
+    background-color: white;
+}
